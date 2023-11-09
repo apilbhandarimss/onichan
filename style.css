@@ -1,0 +1,186 @@
+/* Reset some default styles and add basic styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    
+    background-image:url('R.jpg');
+
+}
+
+body:hover{
+    background-image: url('12.gif');  
+}
+header {
+background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 45px 0;
+    border-radius: 2%;
+    background-image:linear-gradient(grey,black)
+
+}
+
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    display: flex;
+  
+}
+
+nav li {
+    margin: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 5px 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-image: url('12.gif');
+    background-color: black;
+}
+
+/* Add a GIF image on hover */
+a:hover::before {
+    content: "";
+    background-image: url('sp.gif');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    left: -35px;
+    transform: translateY(-50%);
+    display: block;
+}
+.h1{
+    text-decoration-color: white;
+}
+.profile-pic {
+    width: 200px; /* Set the desired width and height for your circular frame */
+    height: 200px;
+    border-radius: 50%; /* Make the element circular by setting border-radius to 50% */
+    overflow: hidden; /* Hide overflow content (if any) to make it truly circular */
+    align-content: center;
+    border: 3px solid #fff; /* Add a white border around the circular frame */
+
+    
+}
+
+.profile-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain the aspect ratio of the image and cover the circular frame */
+}
+.cool-box {
+    background-color: hsla(207, 33%, 65%, 0.5);
+        color: #fff; /* Text color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Drop shadow */
+    padding: 20px; /* Padding inside the box */
+    text-align: justify; /* Center-align text */
+}
+.cool-bu {
+    background-color: rgba(13, 250, 175, 0.352);
+        color: #ffffff; /* Text color */
+    width: 200px;
+    height: 50px;
+    border-radius: 3%;
+
+        
+}
+html{
+    scroll-behavior: smooth;
+}
+.cool-bu:hover{
+    background-image:linear-gradient(grey,black);
+}
+
+.cool-box h1 {
+    font-size: 24px; /* Title font size */
+    margin: 0;
+}
+
+.cool-box p {
+    font-size: 21px; /* Text font size */
+}
+div {
+    scroll-behavior: smooth;
+}
+
+
+/* Optional: Add a little padding to the target sections to make scrolling smoother */
+
+.project-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 4px;
+    background-color: rgba(3, 53, 255, 0.612);
+    margin-bottom: 5px;
+    margin-right: 200px;
+    border-radius: 3%;
+}
+
+.project-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.project-content2 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+img {
+    max-width: 100%; /* Make sure the image doesn't exceed its container width */
+    height: auto; /* Maintain the aspect ratio */
+    max-height: 150px; /* Set the maximum height to limit the size */
+    border-radius: 15%;
+    
+}
+.project-box2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 4px;
+    background-color: rgba(3, 53, 255, 0.612);
+    margin-bottom: 5px;
+    margin-left: 200px;
+    border-radius: 3%;
+}
+.project-box3 {
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-evenly;
+   
+    
+    background-color: rgba(3, 53, 255, 0.612);
+   
+    margin-left: 200px;
+    height: auto;
+    border-radius: 3%;
+}
+.profile-pic{
+    scroll-behavior: smooth;
+}
+.project-box{
+    scroll-behavior: smooth;
+}
+.profile-pic[id] {
+    scroll-margin: 20px;
+}
+    
+.tf{
+    border-radius: 50%;
+}
