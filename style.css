@@ -3,7 +3,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    
     background-image:url('R.jpg');
 
 }
@@ -12,11 +11,11 @@ body:hover{
     background-image: url('12.gif');  
 }
 header {
-background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
     text-align: center;
     padding: 45px 0;
-    border-radius: 2%;
     background-image:linear-gradient(grey,black)
+    
 
 }
 
@@ -30,7 +29,7 @@ nav ul {
 }
 
 nav li {
-    margin: 30px;
+    margin: 20px;
 }
 
 a {
@@ -49,21 +48,10 @@ a:hover {
     background-color: black;
 }
 
-/* Add a GIF image on hover */
-a:hover::before {
-    content: "";
-    background-image: url('sp.gif');
-    background-size: cover;
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    top: 50%;
-    left: -35px;
-    transform: translateY(-50%);
+
+h1 {
     display: block;
-}
-.h1{
-    text-decoration-color: white;
+    align-items: center;
 }
 .profile-pic {
     width: 200px; /* Set the desired width and height for your circular frame */
@@ -89,20 +77,24 @@ a:hover::before {
     padding: 20px; /* Padding inside the box */
     text-align: justify; /* Center-align text */
 }
+
+ 
 .cool-bu {
-    background-color: rgba(13, 250, 175, 0.352);
-        color: #ffffff; /* Text color */
+    background-color: rgba(13, 250, 175, 0.7);
+    color: #fff;
     width: 200px;
-    height: 50px;
-    border-radius: 3%;
+    height: autopx;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+}
 
         
-}
+
 html{
     scroll-behavior: smooth;
 }
 .cool-bu:hover{
-    background-image:linear-gradient(grey,black);
+    background-image:linear-gradient(rgb(128, 253, 11),black);
 }
 
 .cool-box h1 {
@@ -128,7 +120,9 @@ div {
     background-color: rgba(3, 53, 255, 0.612);
     margin-bottom: 5px;
     margin-right: 200px;
-    border-radius: 3%;
+    border-radius: 25px;
+    height: 200px;
+    width: auto;
 }
 
 .project-content {
@@ -156,20 +150,36 @@ img {
     padding: 4px;
     background-color: rgba(3, 53, 255, 0.612);
     margin-bottom: 5px;
-    margin-left: 200px;
-    border-radius: 3%;
+    margin-left: 150px;
+    border-radius: 25px;
 }
 .project-box3 {
-    margin-right: 100px;
     display: flex;
     justify-content: space-evenly;
-   
-    
+    align-items: center;
+    padding: 4px;
     background-color: rgba(3, 53, 255, 0.612);
-   
+    margin-bottom: 5px;
     margin-left: 200px;
-    height: auto;
-    border-radius: 3%;
+    margin-right: 100px;
+
+    border-radius: 25px;
+}
+.project-content3{
+    display: flex;
+    align-items: center;
+    width: 100%;  
+
+}
+.project-box2:hover{
+    background-image:radial-gradient(rgb(0, 0, 0), gray);
+}
+.project-box3:hover{
+    background-image:radial-gradient(rgb(36, 99, 236), rgb(0, 38, 255));
+}
+.project-box:hover{
+    background-image:radial-gradient(rgb(0, 0, 0), gray);
+
 }
 .profile-pic{
     scroll-behavior: smooth;
