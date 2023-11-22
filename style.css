@@ -5,13 +5,14 @@ body {
 
 }
 body{
-   background-image: radial-gradient(rgb(232, 163, 163),rgb(250, 70, 5));
+   background-image: radial-gradient(rgb(232, 163, 163),rgb(253, 126, 80));
 }
 header {
     background-color: rgba(0, 0, 0, 0.817);
     text-align: center;
     padding: 45px 0;
-    background-image:linear-gradient(rgba(128, 128, 128, 0.674),rgb(0, 0, 0))
+    background-image: linear-gradient(rgb(255, 94, 0),rgb(169, 45, 0));
+    
     
 
 }
